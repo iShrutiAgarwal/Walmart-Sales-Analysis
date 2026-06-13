@@ -68,7 +68,7 @@ Used the command ```kaggle datasets download -d <dataset-path>``` to pull datase
 - **Libraries:** Installed necessary Python libraries.
 - **Loading Data:** Read the data into a Pandas DataFrame for initial analysis and transformations.
 
-### 5. Explore the Data
+### 5. Exploring the Data
 - **Goal:** Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
 - **Analysis:** Used functions like ```.info()```, ```.describe()```, and ```.head()``` to get a quick overview of the data structure and statistics.
 
@@ -90,9 +90,11 @@ Used the command ```kaggle datasets download -d <dataset-path>``` to pull datase
   
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
 - **Business Problem-Solving:** Executed complex SQL queries to answer critical business questions, such as:
-  - **Sales Insights:** Key categories, branches with highest sales, and preferred payment methods.
+  - **Sales Insights:** Key categories, branches with highest sales, and critical selling months.
+  - **Product & Pricing Analysis:** Expensive categories, highest selling categories.
+  - **Time based Trends:** Highest revenue generating day, yearly, monthly branch revenue trends and shift-wise sales. 
   - **Profitability:** Insights into the most profitable product categories and locations.
-  - **Customer Behavior:** Trends in ratings, payment preferences, and peak shopping hours.
+  - **Customer Behavior Analysis:** Trends in ratings, payment method preferences, and peak shopping hours.
 - **Documentation:** Kept clear notes of each query's objective, approach, and results.
 
 ***
@@ -111,7 +113,36 @@ Used the command ```kaggle datasets download -d <dataset-path>``` to pull datase
 
 ## 📌 Results and Insights
 
+- McKinney city generates the highest average transactions.
+- Credit card is the most preferred payment method.
+- Branch 053 produces maximum profits.
+- December is the most revenue generating month while April does least revenue.
+- Average categorical ratings determined.
+- Analysed most popular category of each city.
+- Top 5 most expensive categories identified.
+- Fashion accessories and home & lifestyle are the most popular categories.
+- Wednesday is the highest revenue generating day of the week.
+- Identified branches suffering from highest revenue decline over the year.
+- Analysed monthly revenue trend of each branch.
+- Profit analysis performed categorically and as per different branches.
+- Identified bulk purchases.
+- Identified branches that need to improve their customer satisfaction practices.
+  
 
+***
+
+## 📍 Key Recommendations
+
+- Improve marketing strategies by targeting popular categories of each branch and supply of these categories maintained at all times.
+- Work around the most profitable branches to further boost its sales and focused planning of its management and facilities.
+- Create strategies to boost sales or mitigate losses of the branches having declining revenue over the year. Can assign time-framed targets to low performing branches as to uplift their sales.
+- Enhance store management during the high revenue months such as December and improvise sale discounts during least sale months like April to improve its revenue.
+- Guide city-level promotions to address regional preferences and improve customer experiences.
+- Track expensive categories sales' and their revenue, introduc them in marketing campaigns to make people familiar with these product categories therefore, improving its sales.
+- Manage staff shifts and stock replenishment schedules effectively during high-sales periods of the day.
+- Optimize staffing, financial systems and inventory management during peak days like Wednesday as it is the most revenue generating day of the week.
+- Keep track of the monthly revenue trends and build strategies to improve upcoming profits compared to the less profitable last months and maintain growth balance.
+- Expand high-profit category products and manage its pricing strategies effectively.
 
 ***
 
